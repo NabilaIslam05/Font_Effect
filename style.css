@@ -23,7 +23,7 @@ section .row {
   transform: rotate(-30deg);
 }
 i {
-  color: rgba(0, 0, 0, 0.5);
+  /* color: rgba(0, 0, 0, 0.5); */
   transition: 0.5s;
   padding: 0 5px;
   user-select: none;
@@ -52,10 +52,10 @@ section .row div:nth-child(2) {
 }
 @keyframes animate2 {
   0% {
-    transform: translateX(0%);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(-200%);
+    transform: translateX(-0%);
   }
 }
 section .row:nth-child(even) div {
